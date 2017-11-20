@@ -275,10 +275,11 @@ input[type=submit] {
     }
     #main-container {
       padding-top: 20px;
+      /* position: relative; */
     }
     .main-section {
       /* position: relative; */
-      width: 700px;
+      width: 100%;
       max-width: 760px; 
       padding: 50px;
     
@@ -292,6 +293,7 @@ input[type=submit] {
       bottom: -110px; */
       max-width: 700px;
       margin-top: 80%;
+      overflow: hidden;
     }
 
   }
@@ -303,8 +305,8 @@ input[type=submit] {
       max-width: 640px;
     }
     #main-container {
-      width: 600px;
-      max-width: 640px; 
+      width: 100%;
+       
       
   
     }
@@ -321,7 +323,7 @@ input[type=submit] {
     }
     nav {
     float: none;
-    width: 640px;
+    width: 100%;
     padding: 0;
     } 
     nav a {
